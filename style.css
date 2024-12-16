@@ -9,7 +9,7 @@ body{
     font-family: sans-serif;
     /*background: #f2f2f2;*/
     background: url(https://media.gettyimages.com/id/847484102/es/foto/mujer-en-traje-rosado-con-azul-puede.jpg?s=612x612&w=0&k=20&c=3-C50muTsXTh9IT3YgZCg19hh-s9ukaZB8ss54MgQa4=);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;

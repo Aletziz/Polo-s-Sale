@@ -6,8 +6,24 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: monospace;
-    background: #f2f2f2;
+    font-family: sans-serif;
+    /*background: #f2f2f2;*/
+    background: url(https://media.gettyimages.com/id/847484102/es/foto/mujer-en-traje-rosado-con-azul-puede.jpg?s=612x612&w=0&k=20&c=3-C50muTsXTh9IT3YgZCg19hh-s9ukaZB8ss54MgQa4=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    animation: scroll 20s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        background-position: 0 0, 0 100%, 0 200%;
+    }
+    100% {
+        background-position: 0 -300px, 0 -400px, 0 -500px; 
+    }
 }
 
 div, ul, nav, header, footer, a, li, label {
@@ -16,7 +32,8 @@ div, ul, nav, header, footer, a, li, label {
 }
 
 .header{
-    background: #f2f2f2;
+    /*background: #f2f2f2;*/
+    background: transparent;
     height: 4em;
     display: flex;
     justify-content: space-between;
@@ -155,7 +172,6 @@ main, p, h1, img, div{
 }
 
 .main{
-    background: #f2f2f2;
     container-name: main;
     container-type: inline-size;
 }
@@ -191,6 +207,7 @@ h1{
 .main__img-container{
     max-height: 500px;
     overflow: hidden;
+    filter: drop-shadow(0 0 5px #3f012d);
 }
 
 

@@ -8,7 +8,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     /*background: #f2f2f2;*/
 }
 
@@ -238,19 +238,19 @@ main, p, h1, img, div{
 }
 
 h1{
-    color: #bb0487;
+    color: #000000;
     font-size: 3rem;
     font-style: italic;
-    filter: drop-shadow(0 0 8px #3f012d);
+    filter: drop-shadow(0 0 4px #ffffff);
 }
 
 .main__content p{
     margin-top: 20px;
-    color: #bb0487;
-    font-size: 1rem;
+    color: #000000;
+    font-size: 1.5rem;
     font-style: italic;
     text-align: center;
-    filter: drop-shadow(0 0 4px #3f012d);
+    filter: drop-shadow(0 0 4px #ffffff);
 }
 
 .main__img-container{
@@ -334,9 +334,9 @@ h1{
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    padding: 0;
+    padding: 5px;
     text-align: center;
     max-width: max-content;
     max-height: 60vh;
@@ -364,21 +364,22 @@ h1{
     color: #bb0487;
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .grid__item span{
     color: #000;
     font-size: 3rem;
     font-weight: 100;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .grid__item p{
     color: #000;
     font-size: 1rem;
     font-weight: 400;
-    margin-top: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .grid__item:hover{
@@ -433,7 +434,7 @@ h1{
     }
 
     .grid__item{
-        max-width: 40vw;
+        max-width: 100%;
         max-height: 60vh;
     }
 }
@@ -602,3 +603,7 @@ footer{
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}
 }
+
+
+
+

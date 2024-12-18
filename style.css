@@ -399,6 +399,11 @@ h1{
 /*---------------------- ventas queries --------------------*/
 
 @container Contenido (min-width: 56.26rem){
+
+    .Contenido{	
+        margin-top: 80px;
+    }
+
     .grid__conteiner{
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-flow: dense;
@@ -418,6 +423,11 @@ h1{
 }
 
 @container Contenido (min-width: 81.25rem){
+    
+    .Contenido{	
+        margin-top: 80px;
+    }
+    
     .grid__conteiner{
         grid-template-columns: 1fr 1fr 1fr 1fr; 
         grid-template-rows: 1fr 1fr 1fr 1fr;
